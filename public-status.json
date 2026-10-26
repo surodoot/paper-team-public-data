@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "snapshot",
-  "sourceObservedAt": "2026-10-26T02:32:04.363Z",
-  "reportCompletedAt": "2026-10-26T02:35:37.504Z",
+  "sourceObservedAt": "2026-10-26T02:41:26.062Z",
+  "reportCompletedAt": "2026-10-26T02:45:24.898Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,50 +18,50 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "짧은 반등과 15분·60분 약세가 혼재합니다. 하락·반등·박스 시나리오 모두 비용 차감 우위가 검증되지 않아 위험관리 거부와 NO_TRADE를 유지했습니다."
+    "summary": "보합·약세와 거래량 증가가 혼재합니다. 반등·하단 재시험·횡보 시나리오의 비용 차감 우위가 검증되지 않아 위험관리 거부와 NO_TRADE를 유지했습니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "확정봉에서 5분 약 +0.064%, 15분 약 -0.232%, 60분 약 -0.357%를 관측했습니다. 짧은 반등은 검증된 진입규칙이 아닙니다."
+      "summary": "확정봉에서 15분 약 -0.010%, 60분 약 -0.153%와 최근 15봉 거래량 증가를 관측했습니다. 거래량 확대만으로 매수 신호를 확정하지 않습니다."
     },
     {
       "role": "VET",
       "label": "자료 검증",
       "status": "COMPLETED",
-      "summary": "새 Kraken USD 출처와 확정봉 119개의 정합성을 확인했습니다. 자료 정합성은 예측력 검증이 아닙니다."
+      "summary": "새 Kraken USD 출처와 확정봉 119개의 정합성을 확인했습니다. 입력 일관성은 예측력이나 실행 승인을 뜻하지 않습니다."
     },
     {
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "하락·반등·박스 시나리오 모두 비용 차감 기대우위가 검증되지 않아 관망했습니다."
+      "summary": "반등·하단 재시험·횡보를 비교했지만 사전 고정 진입규칙과 비용 차감 순우위 검증이 없어 관망했습니다."
     },
     {
       "role": "SIZE",
       "label": "규모 산정",
       "status": "COMPLETED",
-      "summary": "수수료 포함 60달러 노출 상한을 계산했습니다. 산술적 수량 한도는 매수 승인이나 손실 한도가 아니며 신규 배정은 0입니다."
+      "summary": "수수료 포함 60달러 전체 노출 상한을 계산했습니다. 산술적 가정수량은 신규 진입 승인이 아니며 신규 배정은 0입니다."
     },
     {
       "role": "FILLS",
       "label": "체결 검토",
       "status": "COMPLETED",
-      "summary": "관측 스프레드와 잔량은 체결이 아니며 실행호가 기한이 지났습니다. 실행에는 별도 새 호가가 필요합니다."
+      "summary": "관측 호가 잔량이 가정수량을 수용해도 지속성·체결·슬리피지는 보장되지 않습니다. 실행호가 기한은 이미 지났습니다."
     },
     {
       "role": "RISK",
       "label": "위험 관리",
       "status": "COMPLETED",
-      "summary": "검증된 비용 차감 우위가 없어 신규 노출을 거부했습니다."
+      "summary": "검증된 순우위 부재로 신규 노출을 거부했습니다. 기존 핵심 모의정책 승인 대기가 판단 이유는 아닙니다."
     },
     {
       "role": "CHIEF",
       "label": "증권장",
       "status": "COMPLETED",
-      "summary": "이번 회차의 여섯 독립 검토와 위험관리 거부를 보존하여 NO_TRADE로 마쳤습니다. 새 주문·체결은 없습니다."
+      "summary": "이번 회차의 여섯 새 독립 검토와 위험관리 거부를 보존해 NO_TRADE로 마쳤습니다. 새 주문·체결은 없습니다."
     }
   ],
   "fills": [],
@@ -77,6 +77,6 @@
     "수수료·슬리피지는 모형 가정으로 실제 거래소 요금이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-26T02:36:31.348Z",
-  "snapshotPreparedAt": "2026-10-26T02:37:35.715047+00:00"
+  "accountVerifiedAt": "2026-10-26T02:46:19.822Z",
+  "snapshotPreparedAt": "2026-10-26T02:47:09.737035+00:00"
 }

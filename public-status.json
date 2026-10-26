@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "snapshot",
-  "sourceObservedAt": "2026-10-26T02:12:04.021Z",
-  "reportCompletedAt": "2026-10-26T02:15:58.738Z",
+  "sourceObservedAt": "2026-10-26T02:21:12.425Z",
+  "reportCompletedAt": "2026-10-26T02:24:45.274Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,38 +18,38 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "15분 반등과 60분 약세가 혼재했습니다. 비용 차감 후 검증된 진입 근거가 없어 위험관리 거부와 NO_TRADE를 유지했습니다."
+    "summary": "15분·60분 약세를 관측했습니다. 하락 지속과 반등 어느 쪽도 비용 차감 우위가 검증되지 않아 위험관리 거부와 NO_TRADE를 유지했습니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "15분 수익률은 약 +0.052%, 60분은 약 -0.238%로 혼재했습니다. 기술통계만으로 순우위를 입증하지 못했습니다."
+      "summary": "확정봉에서 15분 약 -0.345%, 60분 약 -0.466%와 저가 마감을 관측했습니다. 약세 자체는 진입 근거가 아닙니다."
     },
     {
       "role": "VET",
       "label": "자료 검증",
       "status": "COMPLETED",
-      "summary": "새 Kraken USD 출처와 확정봉 119개의 정합성을 확인했고 진행봉은 제외했습니다. 정합성은 진입 승인이 아닙니다."
+      "summary": "새 Kraken USD 출처와 확정봉 119개의 정합성을 확인했습니다. 자료 정합성은 예측력 검증이 아닙니다."
     },
     {
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "상승 지속·되돌림 시나리오 모두 검증된 확률과 비용 차감 우위가 없어 관망했습니다."
+      "summary": "하락 지속·반등 시나리오의 확률과 비용 차감 우위가 검증되지 않아 관망했습니다."
     },
     {
       "role": "SIZE",
       "label": "규모 산정",
       "status": "COMPLETED",
-      "summary": "수수료 포함 60달러 상한을 확인했습니다. 계산상 수량 한도와 실제 신규 배정 0을 구분했습니다."
+      "summary": "수수료 포함 60달러 노출 상한을 계산했습니다. 산술적 수량 한도는 진입 승인이 아니며 신규 배정은 0입니다."
     },
     {
       "role": "FILLS",
       "label": "체결 검토",
       "status": "COMPLETED",
-      "summary": "순간 호가 잔량은 지속성·체결을 보장하지 않습니다. 연구 호가는 실행용 5초 기한을 지났습니다."
+      "summary": "단일 호가 잔량이 가정수량보다 커도 잔량 지속과 실제 체결을 보장하지 않습니다. 실행용 새 호가가 별도로 필요합니다."
     },
     {
       "role": "RISK",
@@ -77,6 +77,6 @@
     "수수료·슬리피지는 모형 가정으로 실제 거래소 요금이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-26T02:16:51.746Z",
-  "snapshotPreparedAt": "2026-10-26T02:17:52.348+00:00"
+  "accountVerifiedAt": "2026-10-26T02:25:31.642Z",
+  "snapshotPreparedAt": "2026-10-26T02:26:52.532+00:00"
 }

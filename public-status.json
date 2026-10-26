@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "snapshot",
-  "sourceObservedAt": "2026-10-26T02:21:12.425Z",
-  "reportCompletedAt": "2026-10-26T02:24:45.274Z",
+  "sourceObservedAt": "2026-10-26T02:32:04.363Z",
+  "reportCompletedAt": "2026-10-26T02:35:37.504Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,14 +18,14 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "15분·60분 약세를 관측했습니다. 하락 지속과 반등 어느 쪽도 비용 차감 우위가 검증되지 않아 위험관리 거부와 NO_TRADE를 유지했습니다."
+    "summary": "짧은 반등과 15분·60분 약세가 혼재합니다. 하락·반등·박스 시나리오 모두 비용 차감 우위가 검증되지 않아 위험관리 거부와 NO_TRADE를 유지했습니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "확정봉에서 15분 약 -0.345%, 60분 약 -0.466%와 저가 마감을 관측했습니다. 약세 자체는 진입 근거가 아닙니다."
+      "summary": "확정봉에서 5분 약 +0.064%, 15분 약 -0.232%, 60분 약 -0.357%를 관측했습니다. 짧은 반등은 검증된 진입규칙이 아닙니다."
     },
     {
       "role": "VET",
@@ -37,19 +37,19 @@
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "하락 지속·반등 시나리오의 확률과 비용 차감 우위가 검증되지 않아 관망했습니다."
+      "summary": "하락·반등·박스 시나리오 모두 비용 차감 기대우위가 검증되지 않아 관망했습니다."
     },
     {
       "role": "SIZE",
       "label": "규모 산정",
       "status": "COMPLETED",
-      "summary": "수수료 포함 60달러 노출 상한을 계산했습니다. 산술적 수량 한도는 진입 승인이 아니며 신규 배정은 0입니다."
+      "summary": "수수료 포함 60달러 노출 상한을 계산했습니다. 산술적 수량 한도는 매수 승인이나 손실 한도가 아니며 신규 배정은 0입니다."
     },
     {
       "role": "FILLS",
       "label": "체결 검토",
       "status": "COMPLETED",
-      "summary": "단일 호가 잔량이 가정수량보다 커도 잔량 지속과 실제 체결을 보장하지 않습니다. 실행용 새 호가가 별도로 필요합니다."
+      "summary": "관측 스프레드와 잔량은 체결이 아니며 실행호가 기한이 지났습니다. 실행에는 별도 새 호가가 필요합니다."
     },
     {
       "role": "RISK",
@@ -61,7 +61,7 @@
       "role": "CHIEF",
       "label": "증권장",
       "status": "COMPLETED",
-      "summary": "여섯 새 전문 검토와 위험관리 거부를 보존하여 NO_TRADE로 마쳤습니다. 새 주문·체결은 없습니다."
+      "summary": "이번 회차의 여섯 독립 검토와 위험관리 거부를 보존하여 NO_TRADE로 마쳤습니다. 새 주문·체결은 없습니다."
     }
   ],
   "fills": [],
@@ -77,6 +77,6 @@
     "수수료·슬리피지는 모형 가정으로 실제 거래소 요금이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-26T02:25:31.642Z",
-  "snapshotPreparedAt": "2026-10-26T02:26:52.532+00:00"
+  "accountVerifiedAt": "2026-10-26T02:36:31.348Z",
+  "snapshotPreparedAt": "2026-10-26T02:37:35.715047+00:00"
 }

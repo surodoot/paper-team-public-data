@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "publicationMode": "snapshot",
+  "sourceObservedAt": "2026-10-26T01:31:23.192Z",
+  "reportCompletedAt": "2026-10-26T01:34:03.943Z",
+  "continuousSync": false,
+  "account": {
+    "currency": "USD",
+    "market": "BTC/USD",
+    "initialCash": 1000,
+    "cash": 1000,
+    "positionQty": 0,
+    "equity": 1000,
+    "fillCount": 0,
+    "maxExposurePct": 6
+  },
+  "decision": {
+    "value": "NO_TRADE",
+    "riskVeto": true,
+    "reviewMode": "COMPLETED_REVIEW",
+    "summary": "단기 하락과 후속 반등을 검토했으나 비용 차감 후 검증된 우위가 없어 관망합니다. 위험관리의 신규 노출 거부를 유지했습니다."
+  },
+  "roles": [
+    {
+      "role": "SCAN",
+      "label": "시장 탐색",
+      "status": "COMPLETED",
+      "summary": "5·15·30·60분 수익률이 모두 음수였고 거래량도 소폭 감소했습니다. 방향 관측만으로 진입 우위를 입증하지 못했습니다."
+    },
+    {
+      "role": "VET",
+      "label": "자료 검증",
+      "status": "COMPLETED",
+      "summary": "Kraken USD 호가와 확정 1분봉 119개의 무결성을 확인했습니다. 서로 다른 관측 시각과 진행봉을 구분했습니다."
+    },
+    {
+      "role": "BOOK",
+      "label": "시나리오 검토",
+      "status": "COMPLETED",
+      "summary": "하락 지속·반등 시나리오 모두 사전 고정 규칙과 비용 차감 검증이 부족해 관망했습니다."
+    },
+    {
+      "role": "SIZE",
+      "label": "규모 산정",
+      "status": "COMPLETED",
+      "summary": "가상자금 1,000달러·보유 0에서 비용 포함 총 노출 6% 상한을 확인했습니다. 수량 상한은 주문 승인이 아닙니다."
+    },
+    {
+      "role": "FILLS",
+      "label": "체결 검토",
+      "status": "COMPLETED",
+      "summary": "표시 호가 잔량은 미래 체결을 보장하지 않습니다. 모형 최소 왕복 비용은 원금 대비 약 3.22%였습니다."
+    },
+    {
+      "role": "RISK",
+      "label": "위험 관리",
+      "status": "COMPLETED",
+      "summary": "검증된 순기대우위가 없어 신규 노출을 거부했습니다. 분석 자료를 만료된 실행 호가 대신 쓰지 않습니다."
+    },
+    {
+      "role": "CHIEF",
+      "label": "증권장",
+      "status": "COMPLETED",
+      "summary": "여섯 전문 검토와 위험관리 거부를 보존하여 NO_TRADE로 마쳤습니다. 새 주문·체결은 없습니다."
+    }
+  ],
+  "fills": [],
+  "operations": {
+    "engine": "idle",
+    "analysisScheduleMinutes": 10,
+    "stocks": "not_connected"
+  },
+  "disclosures": [
+    "실제 돈을 사용하지 않는 모의 운용입니다.",
+    "완료된 분석의 공개 요약입니다. 10분 분석 예약과 공개 요약 갱신, 화면 조회 및 주문 실행은 서로 다릅니다. 정기 요약 쓰기 연결은 검증 중입니다.",
+    "차트 시세 갱신은 분석 실행·거래 엔진 가동과 다릅니다.",
+    "수수료·슬리피지는 모형 가정으로 실제 거래소 요금이 아닙니다.",
+    "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
+  ],
+  "accountVerifiedAt": "2026-10-26T01:35:02.661916+00:00",
+  "snapshotPreparedAt": "2026-10-26T01:41:53.840174+00:00"
+}

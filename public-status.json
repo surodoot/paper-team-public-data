@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "publicationMode": "public_summary",
-  "sourceObservedAt": "2026-10-30T17:33:12.974Z",
-  "reportCompletedAt": "2026-10-30T17:35:59.379Z",
+  "sourceObservedAt": "2026-10-30T17:44:45.828Z",
+  "reportCompletedAt": "2026-10-30T17:47:43.135Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
     "market": "BTC/USD",
     "initialCash": 1000,
-    "cash": 1000,
-    "positionQty": 0,
+    "cash": 1000.0,
+    "positionQty": 0.0,
     "equity": 1000,
     "fillCount": 0,
     "maxExposurePct": 6
@@ -18,50 +18,50 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 확정봉 약세와 거래량 증가만으로 비용 후 우위를 입증하지 못해 NO_TRADE와 위험 거부를 유지합니다."
+    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 단기 혼조와 정적 매수 잔량 우세로 비용 후 우위를 입증하지 못해 NO_TRADE와 위험 거부를 유지합니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "마지막 확정 종가 77,093달러는 SMA 5·20·60 아래입니다. 거래량 증가는 검증된 매수 우위가 아닙니다."
+      "summary": "마지막 확정 종가 77,130.4달러는 SMA5·60 아래, SMA20 바로 위입니다. 단기 혼조로 비용 후 매수 우위는 입증되지 않았습니다."
     },
     {
       "role": "VET",
       "label": "자료 검증",
       "status": "COMPLETED",
-      "summary": "119개 확정봉만 검토했습니다. 약세 모멘텀과 거래량 증가는 반등 확정이나 비용 후 우위의 증거가 아닙니다."
+      "summary": "같은 USD 출처와 119개 확정봉 정합성을 검증했습니다. 자료 무결성 통과는 수익 우위나 실행 승인이 아닙니다."
     },
     {
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "표시 매도 잔량이 매수 잔량보다 많지만 단일 호가 관측입니다. 주문 흐름이나 가격 방향으로 단정하지 않습니다."
+      "summary": "표시 매수 잔량이 많지만 단일 정적 호가입니다. 상승·하락·횡보 시나리오를 검토했으며 실제 주문 흐름으로 해석하지 않습니다."
     },
     {
       "role": "SIZE",
       "label": "규모 산정",
       "status": "COMPLETED",
-      "summary": "비용 포함 총 노출 한도는 60달러입니다. 조건부 상한은 매수 목표가 아니며 실제 권고 수량은 0 BTC입니다."
+      "summary": "비용 포함 총 노출 한도는 60달러입니다. 산술상 한도는 매수 목표가 아니며 권장 신규 수량은 0 BTC입니다."
     },
     {
       "role": "FILLS",
       "label": "체결 검토",
       "status": "COMPLETED",
-      "summary": "왕복 모형 비용은 약 3.218%입니다. 표시 잔량이 충분해도 미래 체결과 비용 후 수익은 보장되지 않습니다."
+      "summary": "한도 예시의 즉시 왕복 모형 손실은 약 1.90달러, 매수 명목 대비 약 3.218%입니다. 실제 체결이나 거래소 요금이 아닙니다."
     },
     {
       "role": "RISK",
       "label": "위험 관리",
       "status": "COMPLETED",
-      "summary": "출처 결합 정합성을 확인했습니다. 검증된 비용 후 우위가 없어 위험 거부를 유지하며 실행 시세 검사는 별도입니다."
+      "summary": "검증된 비용 후 우위가 없어 위험 거부를 유지합니다. 연구 자료 유효기간과 실행 시세 검사는 별개입니다."
     },
     {
       "role": "CHIEF",
       "label": "증권장",
       "status": "COMPLETED",
-      "summary": "여섯 실제 원문과 위험관리 거부를 보존해 NO_TRADE로 결정했습니다. 신규 주문 의도나 모델 체결 없이 모의 원장을 유지합니다."
+      "summary": "여섯 실제 원문과 위험관리 거부를 보존해 NO_TRADE로 결정했습니다. 신규 주문 의도·모형 체결 없이 기존 원장을 유지합니다."
     }
   ],
   "fills": [],
@@ -76,6 +76,6 @@
     "비용·체결·유효기간은 기술 모델이며 실제 거래소 요금이나 사용자 개별 지정값이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-30T17:36:30.833160+00:00",
-  "snapshotPreparedAt": "2026-10-30T17:36:39.292078+00:00"
+  "accountVerifiedAt": "2026-10-30T17:48:25.470004+00:00",
+  "snapshotPreparedAt": "2026-10-30T17:48:40.260560+00:00"
 }

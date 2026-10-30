@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "public_summary",
-  "sourceObservedAt": "2026-10-30T17:23:54.544Z",
-  "reportCompletedAt": "2026-10-30T17:26:33.920Z",
+  "sourceObservedAt": "2026-10-30T17:33:12.974Z",
+  "reportCompletedAt": "2026-10-30T17:35:59.379Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,50 +18,50 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "새 Kraken USD 자료의 실제 7인 검토 완료. 확정봉 약세와 비용 후 검증 우위 부재로 NO_TRADE 및 위험 거부를 유지합니다. 정적 호가 불균형은 반등 확률의 증거가 아닙니다."
+    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 확정봉 약세와 거래량 증가만으로 비용 후 우위를 입증하지 못해 NO_TRADE와 위험 거부를 유지합니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "마지막 확정 종가 77,080.5달러는 SMA5·20·60 아래. 15분 -0.09993%, 60분 -0.24008%, 거래량 감소로 비용을 넘는 검증된 매수 우위 없음."
+      "summary": "마지막 확정 종가 77,093달러는 SMA 5·20·60 아래입니다. 거래량 증가는 검증된 매수 우위가 아닙니다."
     },
     {
       "role": "VET",
       "label": "자료 검증",
       "status": "COMPLETED",
-      "summary": "Kraken USD 원문 정규화 해시와 119개 확정봉 정합성 통과. 단일 호가·미완성봉은 비용 후 매수 우위 증거가 아니다."
+      "summary": "119개 확정봉만 검토했습니다. 약세 모멘텀과 거래량 증가는 반등 확정이나 비용 후 우위의 증거가 아닙니다."
     },
     {
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "최우선 매수/매도 수량비 1,447배지만 정적 호가이며 비용 후 우위 없음; 확정종가가 SMA5/20/60 아래."
+      "summary": "표시 매도 잔량이 매수 잔량보다 많지만 단일 호가 관측입니다. 주문 흐름이나 가격 방향으로 단정하지 않습니다."
     },
     {
       "role": "SIZE",
       "label": "규모 산정",
       "status": "COMPLETED",
-      "summary": "비용을 포함한 총 노출 한도는 60달러입니다. 조건부 수량 상한은 매수 권고가 아니며 비용을 넘는 기대수익은 미검증입니다."
+      "summary": "비용 포함 총 노출 한도는 60달러입니다. 조건부 상한은 매수 목표가 아니며 실제 권고 수량은 0 BTC입니다."
     },
     {
       "role": "FILLS",
       "label": "체결 검토",
       "status": "COMPLETED",
-      "summary": "최소 왕복 모형 비용은 약 3.218%입니다. 조건부 최대 수량은 표시 매도 잔량의 약 76.6%이며 실제 체결을 보장하지 않습니다."
+      "summary": "왕복 모형 비용은 약 3.218%입니다. 표시 잔량이 충분해도 미래 체결과 비용 후 수익은 보장되지 않습니다."
     },
     {
       "role": "RISK",
       "label": "위험 관리",
       "status": "COMPLETED",
-      "summary": "확정 종가는 SMA5·20·60 아래이며 비용 후 우위 미검증. 정적 호가 불균형만으로 진입 불가."
+      "summary": "출처 결합 정합성을 확인했습니다. 검증된 비용 후 우위가 없어 위험 거부를 유지하며 실행 시세 검사는 별도입니다."
     },
     {
       "role": "CHIEF",
       "label": "증권장",
       "status": "COMPLETED",
-      "summary": "확정봉 약세와 높은 최소비용 장벽; 단일 호가 불균형은 순우위가 아니므로 위험 거부 유지."
+      "summary": "여섯 실제 원문과 위험관리 거부를 보존해 NO_TRADE로 결정했습니다. 신규 주문 의도나 모델 체결 없이 모의 원장을 유지합니다."
     }
   ],
   "fills": [],
@@ -76,6 +76,6 @@
     "비용·체결·유효기간은 기술 모델이며 실제 거래소 요금이나 사용자 개별 지정값이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-30T17:27:17.933565+00:00",
-  "snapshotPreparedAt": "2026-10-30T17:27:22.986351+00:00"
+  "accountVerifiedAt": "2026-10-30T17:36:30.833160+00:00",
+  "snapshotPreparedAt": "2026-10-30T17:36:39.292078+00:00"
 }

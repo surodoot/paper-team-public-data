@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "public_summary",
-  "sourceObservedAt": "2026-10-30T16:42:20.015Z",
-  "reportCompletedAt": "2026-10-30T16:46:13.332Z",
+  "sourceObservedAt": "2026-10-30T16:53:07.292Z",
+  "reportCompletedAt": "2026-10-30T16:55:27.522Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,26 +18,26 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 평평한 단기 추세와 약 3.218% 모델 왕복비용을 넘는 검증된 우위 부재로 NO_TRADE와 위험관리 거부를 유지합니다."
+    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 단기 약세와 약 3.218% 모델 왕복비용을 넘는 검증된 우위 부재로 NO_TRADE와 위험관리 거부를 유지합니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "119개 마감 1분봉 마지막 종가는 SMA5·20·60 바로 아래이며 60분 수익률은 거의 평평합니다. 비용 후 검증된 우위가 없습니다."
+      "summary": "119개 마감 1분봉 마지막 종가는 SMA5 위지만 SMA20·60 아래이며 15분 -0.287%, 60분 -0.468%입니다. 비용 후 우위는 미검증입니다."
     },
     {
       "role": "VET",
       "label": "자료 검증",
       "status": "COMPLETED",
-      "summary": "Kraken USD 원문 해시·관측 식별자·시각·봉 정합성을 확인했습니다. 진행 봉과 차트·호가 시차를 구분했습니다."
+      "summary": "Kraken USD 원문 해시·시각·119개 마감봉과 1개 진행봉의 정합성을 확인했습니다. 자료 정합성은 수익성 증명이 아닙니다."
     },
     {
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "0.10달러 스프레드와 표시 잔량은 조건부 규모에 충분하지만 지속 유동성이나 비용 후 우위를 보장하지 않습니다."
+      "summary": "표시 매도잔량은 한도 내 정적 수량의 약 1.308배입니다. 좁은 스프레드와 순간 잔량 비대칭은 지속 유동성·매수 우위를 보장하지 않습니다."
     },
     {
       "role": "SIZE",
@@ -76,6 +76,6 @@
     "비용·체결·유효기간은 기술 모델이며 실제 거래소 요금이나 사용자 개별 지정값이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-30T16:46:58.099017+00:00",
-  "snapshotPreparedAt": "2026-10-30T16:47:45.451132+00:00"
+  "accountVerifiedAt": "2026-10-30T16:56:02.563553+00:00",
+  "snapshotPreparedAt": "2026-10-30T16:56:15.933218+00:00"
 }

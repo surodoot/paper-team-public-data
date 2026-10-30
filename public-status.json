@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "public_summary",
-  "sourceObservedAt": "2026-10-30T17:44:45.828Z",
-  "reportCompletedAt": "2026-10-30T17:47:43.135Z",
+  "sourceObservedAt": "2026-10-30T17:53:58.113Z",
+  "reportCompletedAt": "2026-10-30T17:56:16.367Z",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -18,14 +18,14 @@
     "value": "NO_TRADE",
     "riskVeto": true,
     "reviewMode": "COMPLETED_REVIEW",
-    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 단기 혼조와 정적 매수 잔량 우세로 비용 후 우위를 입증하지 못해 NO_TRADE와 위험 거부를 유지합니다."
+    "summary": "새 Kraken USD 자료의 실제 7인 검토를 완료했습니다. 단기 약세와 정적 매수 잔량 우세로 비용 후 우위를 입증하지 못해 NO_TRADE와 위험 거부를 유지합니다."
   },
   "roles": [
     {
       "role": "SCAN",
       "label": "시장 탐색",
       "status": "COMPLETED",
-      "summary": "마지막 확정 종가 77,130.4달러는 SMA5·60 아래, SMA20 바로 위입니다. 단기 혼조로 비용 후 매수 우위는 입증되지 않았습니다."
+      "summary": "마지막 확정 종가 77,030.7달러는 SMA5·20·60 아래입니다. 단기 약세와 거래량 감소로 비용 후 매수 우위는 입증되지 않았습니다."
     },
     {
       "role": "VET",
@@ -37,7 +37,7 @@
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "표시 매수 잔량이 많지만 단일 정적 호가입니다. 상승·하락·횡보 시나리오를 검토했으며 실제 주문 흐름으로 해석하지 않습니다."
+      "summary": "표시 잔량비 196.25배는 단일 정적 호가일 뿐입니다. 상승·하락·횡보 시나리오를 검토했으며 실제 주문 흐름으로 해석하지 않습니다."
     },
     {
       "role": "SIZE",
@@ -76,6 +76,6 @@
     "비용·체결·유효기간은 기술 모델이며 실제 거래소 요금이나 사용자 개별 지정값이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-10-30T17:48:25.470004+00:00",
-  "snapshotPreparedAt": "2026-10-30T17:48:40.260560+00:00"
+  "accountVerifiedAt": "2026-10-30T17:57:01.586345+00:00",
+  "snapshotPreparedAt": "2026-10-30T17:57:09.459887+00:00"
 }

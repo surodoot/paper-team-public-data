@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publicationMode": "public_summary",
-  "sourceObservedAt": "2026-11-02T03:12:13.128000+00:00",
-  "reportCompletedAt": "2026-11-02T03:16:24.183128+00:00",
+  "sourceObservedAt": "2026-11-02T03:22:38.183000+00:00",
+  "reportCompletedAt": "2026-11-02T03:26:14.064003+00:00",
   "continuousSync": false,
   "account": {
     "currency": "USD",
@@ -37,7 +37,7 @@
       "role": "BOOK",
       "label": "시나리오 검토",
       "status": "COMPLETED",
-      "summary": "최근 상승 이후 새 호가는 마지막 완료 종가와 고점 아래입니다. 큰 매도 잔량 비율은 지속 매도 흐름의 증거가 아니며 조건부 시나리오만 유지했습니다."
+      "summary": "새 호가는 최근 완료봉 범위 안입니다. 매수·매도 레벨의 갱신 시각 차이를 수신 시각과 구분했고 잔량 비율을 실제 주문 흐름으로 해석하지 않았습니다."
     },
     {
       "role": "SIZE",
@@ -76,6 +76,6 @@
     "비용·체결·유효기간은 기술 모델이며 실제 거래소 요금이나 사용자 개별 지정값이 아닙니다.",
     "역할별 기록은 작성자의 작업 확인이며 암호학적 실행 증명이 아닙니다."
   ],
-  "accountVerifiedAt": "2026-11-02T03:17:05.198623+00:00",
-  "snapshotPreparedAt": "2026-11-02T03:17:05.727101+00:00"
+  "accountVerifiedAt": "2026-11-02T03:26:36.655862+00:00",
+  "snapshotPreparedAt": "2026-11-02T03:26:49.935096+00:00"
 }
